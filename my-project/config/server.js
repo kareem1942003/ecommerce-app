@@ -1,8 +1,8 @@
-require("dotenv").config();
-const port = process.env.PORT || 4000;
+// require("dotenv").config();
+// const port = process.env.PORT || 4000;
 module.exports = ({ env }) => ({
   host: env("HOST", "0.0.0.0"),
-  port: port,
+  port: env.int("PORT", 1337),
   app: {
     keys: env.array("APP_KEYS"),
   },
