@@ -17,6 +17,7 @@
     "@strapi/plugin-cloud": "4.24.2",
     "@strapi/plugin-i18n": "4.24.2",
     "@strapi/plugin-users-permissions": "4.24.2",
+    "@strapi/provider-upload-cloudinary": "^4.24.3",
     "@strapi/strapi": "4.24.2",
     "dotenv": "^16.4.5",
     "pg": "8.8.0",
@@ -26,7 +27,7 @@
     "styled-components": "5.3.3"
   },
   "engines": {
-    "node": "18.20.2",
+    "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
   "strapi": {
